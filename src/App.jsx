@@ -7,12 +7,16 @@ import Card from './components/layout/Card';
 import './App.css';
 import Familia from './components/basicos/Familia';
 import FamiliaMembro from './components/basicos/FamiliaMembro';
-import ListaAlunos from './components/repeticao/ListaAlunos';
+import ListaAlunos from './components/TabelaProdutos/ListaAlunos';
+import TabelaProdutos from './components/TabelaProdutos/TabelaProdutos';
 
 export default _ => (
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+      <Card titulo="Desafio Lista de alunos" color="#8CD512">
+        <TabelaProdutos></TabelaProdutos>
+      </Card>
       <Card titulo="Lista de alunos">
         <ListaAlunos></ListaAlunos>
       </Card>

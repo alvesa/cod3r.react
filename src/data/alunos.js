@@ -7,5 +7,5 @@ export default [
     {id: 6, nome: 'Arthur', nota: 7.7},
     {id: 7, nome: 'Pedro', nota: 6.9},
     {id: 8, nome: 'Gustavo', nota: 8.8},
-    {id: 8, nome: 'Arthur', nota: 5.8},
+    {id: 9, nome: 'Arthur', nota: 5.8},
 ]
