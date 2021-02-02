@@ -5,13 +5,8 @@ export default props => {
     return (
         <div>
             <div>
-                {React.Children.map(props.children, (el) => {
-                        return cloneElement(el, props);
-                })}
-            </div>
-            <div>
-                {props.children.map((el) => {
-                        return cloneElement(el, props);
+                {props.children.map((child, i) => {
+                        return cloneElement(child, {...props, key: i});
                 })}
             </div>
         </div>

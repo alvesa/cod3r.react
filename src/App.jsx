@@ -7,11 +7,15 @@ import Card from './components/layout/Card';
 import './App.css';
 import Familia from './components/basicos/Familia';
 import FamiliaMembro from './components/basicos/FamiliaMembro';
+import ListaAlunos from './components/repeticao/ListaAlunos';
 
 export default _ => (
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+      <Card titulo="Lista de alunos">
+        <ListaAlunos></ListaAlunos>
+      </Card>
       <Card titulo="Componentes com filhos" color="#00C8F8">
         <Familia sobrenome="Ferreira">
           <FamiliaMembro nome="Pedro"></FamiliaMembro>
